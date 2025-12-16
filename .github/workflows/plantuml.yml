@@ -31,8 +31,8 @@ jobs:
 
     - name: Commit Diagrams
       run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
+        git config --local user.email "dev.semenov@gmail.com"
+        git config --local user.name "SemVA"
         git add diagrams/**/*.png
         git commit -m "Automated diagram generation"
         git push origin main
